@@ -1,0 +1,54 @@
+body{
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+p{
+  text-align: left;
+}
+.content{
+  width:300px;
+  padding: 1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 50px;
+  display:flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  body{
+    font-size: 16px;
+  }
+  .content{
+    width:100%;
+    margin-top: 10px;
+  }
+}
+img{
+  object-fit: cover;
+  object-position: center center;
+  opacity: 1;
+  transition: opacity 0.5s ease 0s;
+  border-radius: 50%;
+  clear:both;
+}
+.links{
+  text-align: left;
+}
+ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5em;
+  text-decoration: inherit; /* no underline */
+  color: #f44336
+}
+a:hover{
+  text-decoration: underline; /* no underline */
+  color: #a0190f
+}
